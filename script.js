@@ -20,7 +20,7 @@ let weather = {
 
         if (!response.ok) {
 
-          alert("No weather found.");
+          alert("No region or city found");
 
           throw new Error("No region or city found.");
 
