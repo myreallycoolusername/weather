@@ -1,6 +1,6 @@
 let weather = {
 
-  apiKey: "ecbb3886f8fe3f8258d1cae670ce6cde",
+  apiKey: "b3752b16564f59e73bf86eb33a40108e",
 
   fetchWeather: function (city) {
 
@@ -22,7 +22,7 @@ let weather = {
 
           alert("No weather found.");
 
-          throw new Error("No weather found.");
+          throw new Error("No region or city found.");
 
         }
 
