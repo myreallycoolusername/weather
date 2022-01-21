@@ -98,4 +98,4 @@ document
 
   });
 
-weather.fetchWeather("Denver"); // this could be anything
+weather.fetchWeather("Santa Monica"); // this could be anything
