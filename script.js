@@ -98,4 +98,4 @@ document
 
   });
 
-weather.fetchWeather("Canada"); // this could be anything
+weather.fetchWeather("Denver"); // this could be anything
