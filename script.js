@@ -174,7 +174,7 @@ let geocode = {
 
     else {
 
-      weather.fetchWeather("Burnaby");
+      weather.fetchWeather(data.results[0].components.city);
 
     }
 
